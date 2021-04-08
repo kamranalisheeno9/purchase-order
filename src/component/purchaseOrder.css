@@ -1,0 +1,318 @@
+.titleHeader{
+    font-size: 18px;
+    font-weight: 600;
+    float: left;
+    margin-left: 10px;
+
+}
+
+.close{
+    border-left: 2px solid rgb(134, 134, 134);
+    padding-left: 4px;
+    margin-left: 4px;
+    margin-right: 10px;
+}
+.closeContainer{
+    float: right;
+}
+.headerContainer{
+    line-height: 40px;
+    align-self: center;
+    /* background-color: aqua; */
+}
+.bodyContainer{
+    background-color: rgb(245, 244, 244);
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* line-height: 40px; */
+}
+.bodyHalf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin: 10px;
+
+
+}
+.radio{
+  
+    margin: 10px;
+}
+.vendor{
+    width: 100%;
+    /* margin-left: -20 !important; */
+}
+.dropBtn{
+    /* align-self: center; */
+    width: 92%;
+    float: left;
+    border-radius: 0px !important;
+    }
+.address{
+    text-align: left;
+    font-size: 12px;
+    color: rgb(156, 156, 156);
+}
+.addressContainer{
+    text-align: left;
+    font-size: 14px;
+}
+.inputwidth{
+width: 92%;
+}
+.datevalue{
+    text-align: left;
+    font-size: 10px;
+    
+}
+.shipmentBtn{
+    width: 92%;
+    float: left;
+}
+.discountValue{
+    width: 92%;
+    float: left;
+
+}
+.discountValue p{
+    font-size: 12px;
+
+}
+.shipmentBtn p{
+    font-size: 10px;
+
+}
+.horizontalLine{
+    
+    width: 79%;
+    margin: 30px 0px ;
+    color: rgb(236, 236, 236);
+    border: 0.5px solid rgb(235, 234, 234);
+}
+.discount{
+
+    width: 160px;
+    border-radius: 0px !important;
+    border: none  !important;
+    border-bottom: 2px dotted grey !important  ;
+}
+.bulk{
+    text-align: right;
+}
+.any{
+    background-color: palegoldenrod !important;
+}
+.table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.table th{
+    width:20%
+}
+.table td{
+    width:20%
+}
+.ItemDetails{
+    /* background-color: palegoldenrod; */
+    width: 50% !important;
+
+}
+.table th{
+    border: 1px solid rgb(192, 192, 192);
+}
+.table td{
+
+    border: 1px solid rgb(192, 192, 192);
+}
+.percentage{
+    text-align: center;
+    color: rgb(192, 192, 192) !important ;
+}
+.picture{
+    font-size: 25px;
+    color: rgb(192, 192, 192);
+    margin-right: 5px;
+    
+}
+.pic{
+    border-right: 1px solid rgb(192, 192, 192);
+
+}
+.text{
+    line-height: 0px;
+    color: rgb(192, 192, 192);
+}
+
+.selectbtn{
+    width: 100%;
+    border: none !important;
+    color: rgb(192, 192, 192) !important; 
+
+}
+.table td tr{
+    text-align: end; 
+    color: rgb(173, 173, 173); 
+
+}
+.dotIcon{
+    margin-left: 10px;
+    width: 18px;
+    height: 18px;
+    border-radius: 30px;
+    border: 2px solid blue;
+}
+.CloseIcon{
+    font-size: 18px;
+    margin-left: 5px;
+    color: red !important;
+}
+.addbtn{
+    background-color: rgb(236, 236, 236) !important;
+}
+.add{
+    margin-left: 10px;
+    text-align: left;
+}
+.add textarea{
+    width: 80%;
+}
+.total{
+    background-color:  rgb(241, 238, 238);
+}
+.inputs{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.details {
+    margin-left: 10px;
+    text-align: left;
+    float: left;
+    margin-bottom: 20px;
+    border-radius: 1px solid rgb(224, 224, 224);
+
+}
+.textareaContainer{
+    width: 500px;
+    height: 100px;
+    padding: 10 0px;
+
+}
+.mainDetail{
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    padding-top: 20px !important;
+    background-color:  rgb(241, 238, 238);
+}
+.upload{
+    float: left;
+    text-align: left;
+}
+.percentageBtn{
+    margin-left: 20px;
+    border: none !important;
+    background-color:  rgb(236, 236, 236) !important;
+
+}
+.percentageBtn1{
+    /* margin-left: 20px; */
+    border: none !important;
+    background-color:  rgb(209, 209, 209) !important;
+
+}
+.discountOffer{
+    /* margin-right: 40%; */
+    width: 45%;
+}
+.tableValues{
+    list-style: none;
+    width: 100%;
+    margin-right: 20px;
+    margin:0 !important;
+}
+
+
+@media only screen and (max-width:1050px){
+    .textareaContainer{
+        width: 330px;
+     
+    }
+    .inputPurchase{
+        width: 98%;
+    }
+}
+@media only screen and (max-width:990px){
+   .ItemDetails tr{
+       font-size: 12px !important;
+   } 
+   .selectbtn{
+    font-size: 10px !important;
+
+   }
+    .picture{
+        font-size: 16px !important;
+    }
+}
+@media only screen and (max-width:720px){
+    
+    .selectbtn{
+     font-size: 8px !important;
+ 
+    }
+     .picture{
+         font-size: 16px !important;
+     }
+     .percentageBtn{
+         font-size: 12px !important;
+     }
+     .arrow{
+        font-size: 1px !important;
+
+     }
+     .textareaContainer{
+        width: 250px;
+     
+    }
+}
+
+@media only screen and (max-width:520px){
+.searchIcon{
+    display: none !important;
+}
+.mainDetail{
+    padding-left: 50px !important;
+}
+.selectbtn{
+    padding: 0 !important;
+    font-size: 7px !important;
+}
+.text{
+    font-size: 8px ;
+}
+.picture{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 12px !important;
+}
+.input p{
+    font-size: 10px !important;
+}
+.inputs input{
+    width: 40% !important;
+}
+.discountOffer{
+    margin-left: 20px !important;
+}
+.textareaContainer{
+    width: 300px;
+ 
+}
+.upload{
+    margin-left: 20px;
+}
+}
