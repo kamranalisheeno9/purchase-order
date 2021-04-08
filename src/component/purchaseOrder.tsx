@@ -404,7 +404,7 @@ const type = (
 :
 <>
 <Row>
-    <Col xs={20} sm={20} md={20} lg={8} xl={19} >
+    <Col  xs={20} sm={20} md={20} lg={20} xl={19} >
     
     <table className="table">
         <th className="ItemDetails"  >
@@ -439,7 +439,7 @@ const type = (
         <a href="#"><EllipsisOutlined className="dotIcon" /></a>
     </Col>
     
-    <Col xs={20} sm={20} md={20} lg={12} xl={19} >
+    <Col xs={20} sm={20} md={20} lg={20} xl={19} >
     
     <table className="table">
         <td  className="ItemDetails" >
@@ -507,14 +507,14 @@ const type = (
         </Col>
 </Row>
 <Row>
-    <Col xs={16} sm={16} md={12} lg={8} xl={8}>
+    <Col  xs={20} sm={8} md={8} lg={8} xl={8}>
     <div className="add">
     <Button  className="addbtn" >  <PlusCircleTwoTone style={{color:"blue"}} /> Add another line <CaretDownFilled /></Button>
         <p>Customer Notes</p>
         <textarea name="" id="">Will be displayed on purchase order</textarea>
     </div>
     </Col>
-    <Col className="total" xs={20} sm={20} md={20} lg={20} xl={8} >
+    <Col className="total" xs={20} sm={16} md={12} lg={12} xl={8} >
 
         <div className="inputs">
     <p>Sub Total </p><p>0.00</p>
@@ -543,7 +543,7 @@ const type = (
 
 
 <Row className="mainDetail">
-    <Col  xs={32} sm={12} md={12} lg={12} xl={12  }>
+    <Col   xs={32} sm={12} md={12} lg={12} xl={12}>
         <div className="details" >
 
         <p>Terms and Conditions</p>
